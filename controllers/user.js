@@ -17,7 +17,7 @@ module.exports = {
   
       res.status(200).json({userName, token})
     } catch (error) {
-      res.status(400).json({error: error.message})
+      res.json({error: error.message})
     }
   },
 
@@ -32,7 +32,7 @@ module.exports = {
   
       res.status(200).json({userName, token})
     } catch (error) {
-      res.status(400).json({error: error.message})
+      res.json({error: error.message})
     }
   }
 }
