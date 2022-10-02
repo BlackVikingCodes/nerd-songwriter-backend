@@ -1,6 +1,5 @@
 const allowedOrigins = [
-  'https://nerd-songwriter-api-pnnd.onrender.com',
-  'https://nerd-songwriter-backend-7umm5sxs9-blackvikingcodes.vercel.app'
+  'https://nerd-songwriter-x9np.onrender.com'
 ]
 
 module.exports = allowedOrigins
