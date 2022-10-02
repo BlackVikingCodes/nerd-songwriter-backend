@@ -10,7 +10,6 @@ const rootRoute = require('./routes/root')
 const songRoutes = require('./routes/songs')
 const userRoutes = require('./routes/user')
 const connectDB = require('./config/database')
-const allowedOrigins = require('./config/allowedOrigins')
 
 // express app
 const app = express()
