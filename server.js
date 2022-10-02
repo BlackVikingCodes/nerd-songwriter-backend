@@ -18,16 +18,10 @@ const app = express()
 
 // CORS
 app.use(cors({
-  origin: (origin, callback) => {
-    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
-        callback(null, true)
-    } else {
-        callback(new Error('Not allowed by CORS'))
-    }
-  },
-  credentials: true,
-  optionsSuccessStatus: 200
-  }
+  origin:'*', 
+  credentials:true,            //access-control-allow-credentials:true
+  optionSuccessStatus:200,
+}
 ))
 
 
